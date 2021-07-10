@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+    background-color: #222233;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav{
+    margin: 20px;
+    font-size: 1.5vw;
+}
+
+.back-button {
+    color: rgba(255, 255, 255, 0.2);
+    transition: ease-in-out 500ms;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.back-button:hover{
+    color: white;
+}
+
+i{
+    margin-right: 5px;
+}
+
+li{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+li.nav{
+    color: white;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul.nav{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    margin-left: 45vw;
+    margin-right: 5vw;
+    transition: ease-in-out 250ms;
+}
+
+a:hover{
+    animation: ease-in-out;
+    animation-name: example;
+    animation-duration: 250ms;
+}
+
+.custom-underline {
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+}
+
+.custom-underline,
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-slider-items{
+    display: none;
+}
+
+.typed-cursor {
+    opacity: 100%;
+    animation: cursor-vanish 1ms linear 13s forwards;
+}
+
+.focus-heading{
+    min-height: 400px;
+    max-height: 400px;
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+}
+
+.heading{
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+}
+
+h3{
+    padding: 25px 15px 25px 25px;
+    border-radius: 15px;
+    border: 3px solid #222233;
+    color: white;
+}
+
+.link .custom-underline::after {
+    top: 90%;
+    height: 2px;
+    width: 0%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.5s ease all .3s;
+}
+
+.link:hover .custom-underline::after {
+    width: 90%;
+    transition: 0.3s ease all;
+}
+
+.custom-underline::after {
+    content: "";
+    position: absolute;
+}
+
+.link .currentLink::after{
+    top: 90%;
+    height: 2px;
+    width: 90%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+img{
+    justify-self: start;
+}
+
+.header{
+    color: white;
+    display: flex;
+    background: #111122;
+    width: 100%;
+    align-items: center;
+}
+
+p{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 0 10px;
+    color: #eeeeee;
+    font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+}
+
+#logo{
+    font-family: "JetBrains Mono", monospace;
+    margin-left: auto;
+    font-size: 1vw;
+}
+
+.underline--magical {
+    background-image: linear-gradient(120deg, #650288 0%, #4400ff 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 98%;
+    transition: background-size 0.25s ease-in;
+}
+
+.underline--magical:hover {
+     background-size: 100% 88%;
+ }
+
+ .section{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 65%;
+}
+
+.link-btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.link-btn i{
+
+    margin: 25px;
+    color: rgba(255, 255, 255, 0.2);
+    transition: ease-in-out 500ms;
+    font-size: 24pt;
+}
+
+i:hover{
+    color:#fff;
+}
+
+h1{
+    font-family: "JetBrains Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.underline--magical{
+    text-align: initial;
+    white-space: nowrap;
+    min-width: 100%;
+}
+
+ul{
+    padding: 0;
+}
+
+li.project{
+    list-style: "- ";
+    text-align: center;
+}
+
+.menu-toggle{
+    position:absolute;
+    display: none;
+    top: .75rem;
+    right: 1rem;
+    font-size: 26pt;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .menu-toggle{
+        display: block;
+    }
+
+    ul.nav{
+        display: none;
+        font-size: large;
+        margin: 0;
+    }
+
+    #logo{
+        margin-left: 5vw;
+        font-size: 8pt;
+    }
+
+    .back-button{
+        font-size: 4vw;
+    }
+
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul.nav{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    li.link{
+        width: 100%;
+        text-align: center;
+        padding: .5rem 0px;
+    }
+
+    .nav-links{
+        width: 100%;
+    }
+
+    .nav-links.active{
+        display: flex;
+    }
+
+    .nav.active{
+        display: flex;
+    }
+
+    p{
+	    max-width: 80%;
+	    min-width: 80%;
+}
+
+
+/* 
+@media (prefers-color-scheme: light) {
+     html{
+        filter: invert(1) hue-rotate(180deg);
+    }      
+    body{
+        
+        background-color: #CCCCEE;
+    } 
+    h1{
+        color: #111122;  
+    }
+    h2, h3, p{
+        filter: invert(1) hue-rotate(180deg);
+    }
+    .header{
+        background-color: #ebebfd;
+    }
+} 
+*/
