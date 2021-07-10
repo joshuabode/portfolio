@@ -1,0 +1,22 @@
+{
+  "name": "masterjinduweb",
+  "version": "0.0.1",
+  "description": "Joshua Bode's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuabode/portfolio.git"
+  },
+  "author": "Joshua Bode",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/joshuabode/portfolio/issues"
+  },
+  "homepage": "https://github.com/joshuabode/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
